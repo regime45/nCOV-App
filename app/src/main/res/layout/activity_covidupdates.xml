@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/whitegradient"
+
+    tools:context=".presenter.Covidupdates">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="400dp"
+        android:layout_height="130dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="3">
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/update"
+                    android:id="@+id/totalcases"
+                    android:gravity="center"
+                    android:textSize= "35dp"
+                    android:textColor="#FFFFFF"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total Active Cases"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:paddingTop="10dp"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="100dp"
+                    android:textColor="#FFFFFF"
+                    android:id="@+id/recovries"
+                    android:gravity="center"
+                    android:textSize= "35dp"
+                    android:background="@drawable/recover"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total Recoveries"
+
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:paddingTop="10dp"
+                    android:textColor="@color/black"/>
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="140dp"
+                    android:id="@+id/deaths"
+                    android:textColor="#FFFFFF"
+                    android:layout_height="100dp"
+                    android:background="@drawable/death"
+                    android:gravity="center"
+                    android:textSize= "35dp"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Total Deaths"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:paddingTop="10dp"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="400dp"
+        android:layout_height="130dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="3">
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="100dp"
+                    android:background="@drawable/update"
+                    android:id="@+id/newconfirm"
+                    android:gravity="center"
+                    android:textSize= "50dp"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Active Cases"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:paddingTop="10dp"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="100dp"
+                    android:textColor="#FFFFFF"
+                    android:id="@+id/newrecover"
+                    android:gravity="center"
+                    android:textSize= "50dp"
+                    android:textStyle="bold"
+                    android:background="@drawable/recover"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Recoveries"
+
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:paddingTop="10dp"
+                    android:textColor="@color/black"/>
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="140dp"
+                    android:id="@+id/newdeath"
+                    android:textColor="#FFFFFF"
+                    android:layout_height="100dp"
+                    android:background="@drawable/death"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textSize= "50dp"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Deaths"
+                    android:textStyle="bold"
+                    android:textSize="12sp"
+                    android:paddingTop="10dp"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="263dp"
+        android:background="@drawable/whitegradient"
+        android:orientation="vertical">
+
+        <TextView
+
+            android:id="@+id/Totality"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/whitegradient"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/whitegradient"
+            android:gravity="center"
+            android:text="Total Confirmed Cases"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:text="Last updated"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+            android:hint="DATE"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+
+
+
+    </LinearLayout>
+
+
+
+    <ImageView
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/valcovid"
+        />
+
+
+
+</RelativeLayout>

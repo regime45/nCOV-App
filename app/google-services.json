@@ -1,0 +1,164 @@
+{
+  "project_info": {
+    "project_number": "382240467706",
+    "firebase_url": "https://geofencing-531cb-default-rtdb.firebaseio.com",
+    "project_id": "geofencing-531cb",
+    "storage_bucket": "geofencing-531cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382240467706:android:15f7731dbddd9458507743",
+        "android_client_info": {
+          "package_name": "ai.kun.socialdistancealarm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "382240467706-5ppvnm7hvrbu0hj3r3nm52f4q9mmr4d2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ai.kun.socialdistancealarm",
+            "certificate_hash": "d023bb802b0de77c9687a0ce277ed04bc5702612"
+          }
+        },
+        {
+          "client_id": "382240467706-l3hrbiut1u9dv1pql1l3qut3bt29vfvd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRkxKMmlGPeQVrMJwN0Dvl4qkHTiqT7Pc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "382240467706-l3hrbiut1u9dv1pql1l3qut3bt29vfvd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382240467706:android:a93cc3387e89ce6b507743",
+        "android_client_info": {
+          "package_name": "com.android.geofencing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "382240467706-l3hrbiut1u9dv1pql1l3qut3bt29vfvd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRkxKMmlGPeQVrMJwN0Dvl4qkHTiqT7Pc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "382240467706-l3hrbiut1u9dv1pql1l3qut3bt29vfvd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382240467706:android:f572bf355478f540507743",
+        "android_client_info": {
+          "package_name": "com.android.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "382240467706-l3hrbiut1u9dv1pql1l3qut3bt29vfvd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRkxKMmlGPeQVrMJwN0Dvl4qkHTiqT7Pc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "382240467706-l3hrbiut1u9dv1pql1l3qut3bt29vfvd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382240467706:android:7a0d1c1937455415507743",
+        "android_client_info": {
+          "package_name": "com.example.mycovidgeofences"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "382240467706-l3hrbiut1u9dv1pql1l3qut3bt29vfvd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRkxKMmlGPeQVrMJwN0Dvl4qkHTiqT7Pc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "382240467706-l3hrbiut1u9dv1pql1l3qut3bt29vfvd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382240467706:android:7ac61fb3d76c6b38507743",
+        "android_client_info": {
+          "package_name": "com.example.realtimerecyclerview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "382240467706-l3hrbiut1u9dv1pql1l3qut3bt29vfvd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRkxKMmlGPeQVrMJwN0Dvl4qkHTiqT7Pc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "382240467706-l3hrbiut1u9dv1pql1l3qut3bt29vfvd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

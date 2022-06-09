@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Covid-19 monitoring tool</string>
+    <string name="languages">Covid-19 Symptom Checker</string>
+    <string name="checkBox2">Loss of smell</string>
+    <string name="checkBox3">Shortness of Breath</string>
+    <string name="checkBox4">Fatigue</string>
+    <string name="checkBox5">Fever</string>
+    <string name="checkBox6">Persistent Cough</string>
+    <string name="checkBox7">Diarrhea</string>
+    <string name="checkBox8">Chills</string>
+    <string name="checkBox9">Headaches</string>
+    <string name="checkBox10">Sniffing and Snorting</string>
+    <string name="checkBox11">Nausea and Vomiting</string>
+    <string name="checkBox12">Body Aches</string>
+    <string name="checkBox13">Sore throat</string>
+
+
+</resources>

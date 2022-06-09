@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ai.kun.socialdistancealarm">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.BACKGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application
+        android:name=".SocialDistanceAlarm"
+        android:allowBackup="true"
+        android:enabled="true"
+        android:exported="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".presenter.links.rate_us"></activity>
+        <activity android:name=".presenter.links.ContactActivity" />
+        <activity android:name=".presenter.links.developers" />
+        <activity android:name=".presenter.links.privacy_policies" />
+        <activity android:name=".presenter.links.term_of_use" />
+        <activity android:name=".presenter.links.about_us" />
+        <activity
+            android:name=".presenter.terms"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".presenter.privacy"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".presenter.about_1" />
+        <activity android:name=".presenter.privacy_policy" />
+        <activity
+            android:name=".presenter.Splash_screen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".presenter.links.blogs" />
+        <activity android:name=".presenter.tips" />
+        <activity
+            android:name=".presenter.ph"
+            android:label="Philippines" />
+        <activity android:name=".presenter.About" />
+        <activity android:name=".presenter.health_report" />
+        <activity
+            android:name=".presenter.global"
+            android:label="Global Updates" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".presenter.MapsActivity2"
+            android:label="Geofence" />
+
+        <receiver
+            android:name=".service.GeofenceBroadcastReceiver"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".presenter.Covidupdates"
+            android:label="Covid-19 Updates Poblacion" />
+        <activity android:name=".presenter.Symptom_checker" />
+        <activity android:name=".presenter.Create_Account" />
+        <activity
+            android:name=".MenuActivity2"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <receiver
+            android:name="ai.kun.opentracesdk_fat.alarm.BLEClient"
+            android:enabled="true"
+            android:exported="false" />
+        <receiver
+            android:name="ai.kun.opentracesdk_fat.alarm.BLEServer"
+            android:enabled="true"
+            android:exported="false" />
+        <receiver android:name=".alarm.AutoStart">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity android:name=".LiveBarcodeScanningActivity" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="net.smallacademy.android.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <service
+            android:name=".service.ForegroundService"
+            android:enabled="true"
+            android:exported="false" />
+    </application>
+
+</manifest>

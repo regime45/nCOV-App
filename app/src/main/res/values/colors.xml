@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ac0029</color>
+    <color name="colorPrimaryDark">#ac0029</color>
+    <color name="colorAccent">#ac0029</color>
+
+    <color name="indicator_unselected">#82827A</color>
+
+    <color name="black">#12181f</color>
+    <color name="grey">#555550</color>
+    <color name="divider">#cce5e5e5</color>
+    <color name="background">#faf8f8</color>
+    <color name="white">#ffffff</color>
+    <color name="red">#bb002d</color>
+    <color name="header">#ac0029</color>
+    <color name="orange">#ed4718</color>
+    <color name="blue">#ed4718</color>
+    <color name="green">#13ba2c</color>
+    <color name="yellow">#bab013</color>
+    <color name="blue_onboarding">#ac0029</color>
+
+    <color name="barcode_reticle_background">#99000000</color>
+    <color name="barcode_reticle_stroke">#40000000</color>
+    <color name="barcode_field_value">#797979</color>
+    <color name="barcode_field_box_stroke">#757575</color>
+    <color name="reticle_ripple">#9AFFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="dark">#9A000000</color>
+
+
+    <color name="blacks">#F8F6F6</color>
+    <color name="blacksa">#03A9F4</color>
+
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="c1">#100101</color>
+    <color name="c2">#672727</color>
+
+</resources>

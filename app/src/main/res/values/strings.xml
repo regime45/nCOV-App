@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">n-Cov App
+
+
+
+    </string>
+
+    <string name="title_activity_maps2"> title_activity_maps2</string>
+    <string name="title_home_full">Social Distancing</string>
+    <string name="title_home">Users</string>
+    <string name="title_history">History</string>
+    <string name="safer">Safer</string>
+    <string name="ok">Ok</string>
+    <string name="warning">Caution</string>
+    <string name="strong_warning">Warning</string>
+    <string name="too_close">High Risk, Danger</string>
+    <string name="signal_strength">Signal strength:</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="onboard_one_section_label">Introduction</string>
+    <string name="onboard_two_section_label">Teams</string>
+    <string name="onboard_three_section_label">Device detection</string>
+    <string name="onboard_four_section_label">Location Permission</string>
+    <string name="onboard_one_section_description">Social Distance Alarm helps promote social distancing. It notifies you when other app users are detected close to you, so you can maintain social distance from them.</string>
+    <string name="onboard_two_section_description">Use this for teams of people. Everyone’s app must be turned ON. All data is stored locally.</string>
+    <string name="onboard_three_section_description">Detection will run unless paused. While paused, the app will not detect other devices or be able to be detected.</string>
+    <string name="onboard_four_section_description">It works by using bluetooth signal strength to detect when other app users are within range. It needs location, and Bluetooth Access to alert you.</string>
+    <string name="finish">Finish</string>
+    <string name="person_icon">Person Icon</string>
+    <string name="bluetooth_signal_icon">Bluetooth signal icon</string>
+    <string name="action_notification_settings">Notification Settings</string>
+    <string name="alarm">Alarm</string>
+    <string name="there_are_no_app_users_detected">There are no app users \n detected.</string>
+    <string name="title_teams">Teams</string>
+    <string name="prompt_point_at_a_barcode">Point at team member\'s QRCode</string>
+    <string name="prompt_move_camera_closer">Move camera closer</string>
+    <string name="prompt_searching">Decoding...</string>
+    <string name="product_search_button">Search object</string>
+    <string name="cd_close_button">Back</string>
+    <string name="cd_flash_button">Toggle camera flash</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="reset_dialog_message">Exiting your team will remove handsets you scanned and remove you from handsets that have scanned you.</string>
+    <string name="nothing_scanned">Nothing Scanned, try again.</string>
+    <string name="no_data_scanned">No data Scanned, try again.</string>
+    <string name="scanned_this_app_will_be_added">This app user will be added to your team.</string>
+    <string name="you_didnt_scan">You didn\'t scan the other app, try again.</string>
+    <string name="scannned">Scanned!</string>
+    <string name="try_again">Try Again</string>
+    <string name="your_team_has_0_people">Your team has 0 people</string>
+    <string name="the_app_has_paused_detecting_other_devices">The app has paused detecting other active users\' devices.</string>
+    <string name="resume_detecting_devices">Resume Detecting Active Users</string>
+
+    <string name="languages">Covid-19 Symptom Checker</string>
+    <string name="checkBox2">Loss of smell</string>
+    <string name="checkBox3">Shortness of Breath</string>
+    <string name="checkBox4">Fatigue</string>
+    <string name="checkBox5">Fever</string>
+    <string name="checkBox6">Persistent Cough</string>
+    <string name="checkBox7">Diarrhea</string>
+    <string name="checkBox8">Chills</string>
+    <string name="checkBox9">Headaches</string>
+    <string name="checkBox10">Sniffing and Snorting</string>
+    <string name="checkBox11">Nausea and Vomiting</string>
+    <string name="checkBox12">Body Aches</string>
+    <string name="checkBox13">Sore throat</string>
+    <string name="title_activity_geofencing_map">Map</string>
+    <string name="normal_map">normal_map</string>
+    <string name="hybrid_map">normal_map</string>
+    <string name="satellite_map">normal_map</string>
+    <string name="terrain_map">normal_map</string>
+
+
+    <string-array name="gender_type">
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+    </string-array>
+
+    <string-array name="girls">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+
+    <string-array name="boys">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+
+
+</resources>
